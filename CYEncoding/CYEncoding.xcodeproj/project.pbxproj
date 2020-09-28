@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8307E3C8251B1A7500B0B6F4 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8307E3C5251B1A7500B0B6F4 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8367853B251ADECF008EA8A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367853A251ADECF008EA8A9 /* AppDelegate.m */; };
 		8367853E251ADECF008EA8A9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367853D251ADECF008EA8A9 /* SceneDelegate.m */; };
 		83678541251ADECF008EA8A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83678540251ADECF008EA8A9 /* ViewController.m */; };
@@ -38,9 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8307E3C5251B1A7500B0B6F4 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		8307E3C6251B1A7500B0B6F4 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		8307E3C7251B1A7500B0B6F4 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		83678536251ADECF008EA8A9 /* CYEncoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYEncoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83678539251ADECF008EA8A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8367853A251ADECF008EA8A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,20 +84,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8307E3C4251B1A5500B0B6F4 /* GTMBase64 */ = {
-			isa = PBXGroup;
-			children = (
-				8307E3C6251B1A7500B0B6F4 /* GTMDefines.h */,
-				8307E3C7251B1A7500B0B6F4 /* GTMBase64.h */,
-				8307E3C5251B1A7500B0B6F4 /* GTMBase64.m */,
-			);
-			path = GTMBase64;
-			sourceTree = "<group>";
-		};
 		8367852D251ADECF008EA8A9 = {
 			isa = PBXGroup;
 			children = (
-				8307E3C4251B1A5500B0B6F4 /* GTMBase64 */,
 				83678572251ADEEA008EA8A9 /* Common */,
 				83678571251ADED9008EA8A9 /* Encodings */,
 				83678538251ADECF008EA8A9 /* CYEncoding */,
@@ -303,7 +288,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				83678541251ADECF008EA8A9 /* ViewController.m in Sources */,
-				8307E3C8251B1A7500B0B6F4 /* GTMBase64.m in Sources */,
 				8367853B251ADECF008EA8A9 /* AppDelegate.m in Sources */,
 				8367854C251ADED2008EA8A9 /* main.m in Sources */,
 				83678575251ADF34008EA8A9 /* CYCommTool.m in Sources */,
